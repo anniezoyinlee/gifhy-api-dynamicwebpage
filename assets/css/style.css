@@ -1,3 +1,7 @@
+   html {
+     font-size: 10px;
+   }
+   
    body {
     max-width: 100%;
     background: linear-gradient(to left, rgba(86, 206, 253, 0.753), #2c8349b7 , #f3cb48c2, rgba(216, 141, 206, 0.822));
@@ -15,7 +19,7 @@
   }
 
   .header h1{
-    font-size: 180px;
+    font-size: 12em;
     text-align: center;
     color: rgba(255, 255, 255, 0.705);
     text-shadow: 15px 15px #3b3b3bb7 ;
@@ -26,7 +30,7 @@
   .instruction {
     font-family: 'Economica', sans-serif;
     text-align: justify;
-    font-size: 26px;
+    font-size: 1.6em;
     margin: 10px 0 0 30px;
     color: white;
     text-shadow: 2px 2px #776868b7 ;
@@ -46,7 +50,7 @@
     border: solid 4px rgba(206, 201, 201, 0.459);
     border-radius: 15px;
     font-family: 'Economica', sans-serif;
-    font-size: 26px;
+    font-size: 1.8em;
   }
   
   /* box for adding new buttons */
@@ -65,7 +69,7 @@
 
   .card-body {
     font-family: 'Economica', sans-serif;
-    font-size: 24px;
+    font-size: 1.5em;
   }
 
   .footer {
@@ -74,4 +78,62 @@
     font-size: 13px;
     color: rgb(71, 68, 68);
     margin-top: 250px;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      height: 200px;
+    }
+  
+    .header h1{
+      font-size: 8em;
+    }
+
+    .instruction {
+     font-size: 0.1em;
+      color: white;
+      text-shadow: 2px 2px #776868b7 ;
+    }
+
+    .sidebar {
+      margin: 10px 0;
+      padding: 15px;
+    }
+
+    #addNature {
+      font-size: 1.5em;
+    }
+
+    .nature {
+     margin: 5px 5px 0 5px;
+  }
+  }
+  
+  @media (max-width: 640px) {
+    .header {
+      height: 150px;
+    }
+  
+    .header h1{
+      font-size: 4.5em;
+    }
+
+    .instruction {
+     font-size: 0.1em;
+      color: white;
+      text-shadow: 2px 2px #776868b7 ;
+    }
+
+    .sidebar {
+      margin: 10px 0;
+      padding: 15px;
+    }
+
+    #addNature {
+      font-size: 1.5em;
+    }
+
+    .nature {
+     margin: 5px 5px 0 5px;
+  }
   }
