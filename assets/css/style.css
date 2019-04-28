@@ -1,0 +1,77 @@
+   body {
+    max-width: 100%;
+    background: linear-gradient(to left, rgba(86, 206, 253, 0.753), #2c8349b7 , #f3cb48c2, rgba(216, 141, 206, 0.822));
+   }
+  
+  .header {
+    max-width: 100%;
+    height: 300px;
+    background-image: url("https://media.giphy.com/media/gBxL0G0DqZd84/giphy.gif");
+    -webkit-filter: brightness(110%); /* Safari */
+    filter: brightness(110%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+
+  .header h1{
+    font-size: 180px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 15px 15px #3b3b3bb7 ;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+  }
+  
+  .instruction {
+    font-family: 'Economica', sans-serif;
+    text-align: justify;
+    font-size: 26px;
+    margin: 10px 0 0 30px;
+    color: white;
+    text-shadow: 2px 2px #776868b7 ;
+  }
+
+  /* button lines */
+  .nature {
+    margin: 10px 10px 0 10px;
+  }
+  
+  /* new button */
+  #addNature {
+    display: block;
+    background: rgba(0, 183, 255, 0.363);
+    margin: auto;
+    text-align: center;
+    border: solid 4px rgba(206, 201, 201, 0.459);
+    border-radius: 15px;
+    font-family: 'Economica', sans-serif;
+    font-size: 26px;
+  }
+  
+  /* box for adding new buttons */
+  .sidebar {
+    background-color: #8ec2aca9;
+    color: white;
+    height: 100%;
+    margin-top:10px;
+    padding: 20px;
+  }
+  /* "Add Buttons" in sidebar */
+  .btn {
+    background: rgba(255, 255, 255, 0.568);
+    font-family: 'Special Elite', cursive;
+  }
+
+  .card-body {
+    font-family: 'Economica', sans-serif;
+    font-size: 24px;
+  }
+
+  .footer {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 13px;
+    color: rgb(71, 68, 68);
+    margin-top: 250px;
+  }
